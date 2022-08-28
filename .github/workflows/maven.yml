@@ -23,7 +23,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: git config --global user.name "Your Name" && git config --global user.email "2416145290@qq.com" ./flamecord b
+      run: git config --global user.name "Your Name" && git config --global user.email "2416145290@qq.com" && ./flamecord b
     - name: Build with Maven
       run: tar -cvf build.tar ./*
     - name: Upload Artifacts
